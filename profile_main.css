@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+   /* background-color: #03071e;*/
+    color: white;
+     background-image: url(https://img.freepik.com/free-vector/gradient-dark-dynamic-lines-background_23-2148995950.jpg?w=1060&t=st=1699163609~exp=1699164209~hmac=eb9e68fe0ec0c86ae9737a8185a960cf189b10048cd340a6192f0e7c730410f3);
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    margin: 5px auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 93.2%;
+    margin: 20px auto;
+
+}
+
+.link {
+    margin: 40px;
+}
+
+nav ul {
+    gap: 15px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: #e01a4f;
+}
+
+main {
+    padding: 20px;
+    background-image: url(https://img.freepik.com/free-vector/gradient-dark-dynamic-lines-background_23-2148995950.jpg?w=1060&t=st=1699163609~exp=1699164209~hmac=eb9e68fe0ec0c86ae9737a8185a960cf189b10048cd340a6192f0e7c730410f3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+section {
+    width: 45%;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+/*Footer */
+footer {
+    background-color: #03071e;
+    text-align: center;
+    padding: 20px;
+    margin: 10px auto;
+    color: white;
+}
